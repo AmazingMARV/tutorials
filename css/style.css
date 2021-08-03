@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#040C14;
+}
+
+.myform{
+   padding: 25px;
+    background-color: #091624;
+   border-radius: 10px;
+}
+
+.reg-page{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.debug{
+    border: 1px solid red;
+}
+
+.myform h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    width: 400px;
+}
+
+.myimage{
+    margin-right: 25px;
+    border: 1px solid red;
+    width: 200px;
+}
+
+a{
+    margin: 10px;
+    
+}
+
+.row .myform input, .form-select{
+    background: #040C14 ;
+    color: white;
+}
+.row .myform label{
+    background: transparent ;
+    color: white;
+}
+
+.row input:focus{
+    background-color: #383A4D;
+}
+
